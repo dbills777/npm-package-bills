@@ -1,5 +1,10 @@
 const planetValues = [
   {
+    name: 'earth',
+    multiplier: 1,
+    distance: 0,
+  },
+  {
     name: 'mercury',
     multiplier: 0.378,
     distance: 91691000,
@@ -41,4 +46,4 @@ const planetValues = [
   },
 ];
 
-module.exports.planetValues = planetValues
+module.exports.planetValues = planetValues;
