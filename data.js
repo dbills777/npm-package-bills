@@ -45,5 +45,14 @@ const planetValues = [
     distance: 7500000000,
   },
 ];
-
-module.exports.planetValues = planetValues;
+module.exports = {
+  intro: () => {
+    console.log(`Things to try:
+    weightOnPlanet('jupiter', 100)
+    distanceFromEarth('mars')
+    distanceFromTwoPlanets('mars', 'jupiter')
+    listAllPlanets()
+    planetsByGravity()  `);
+  },
+  planetValues,
+};
