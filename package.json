@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/dbills777/npm-package-bills"
+  },
   "keywords": [
     "javascript"
   ],
