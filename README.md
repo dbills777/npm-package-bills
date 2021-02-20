@@ -15,7 +15,7 @@ npm i @npm-package-bills
 Import Module:
 
 ```
-const planets = require('npm-package-bills')
+const PlanetValues = require('npm-package-bills')
 ```
 Example:
 ```
